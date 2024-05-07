@@ -5,6 +5,7 @@ import ButtonAppBar from './components/ButtonAppBar'
 
 import { Box } from '@mui/material'
 import Index from './components/Index'
+import Preview from './components/Preview'
 
 
 
@@ -12,9 +13,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Box>
+    <Box >
     <ButtonAppBar/>
-    <Index></Index>    
+    <Index></Index>
+    <Preview>
+    </Preview>
     </Box>
   )
 }

@@ -22,13 +22,14 @@ import logoimg from '../assets/logo.png'
        
          <img src={logoimg} style={{paddingLeft:"20px"}}></img>
         </Box>
-       <Box sx={{display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+       <Box sx={{display:"flex",alignItems:"center",justifyContent:"space-evenly"}}>
         <Button sx={{width: "2px",
         color:"#3E3B3B",
+        mr:2
       }}>Login
         </Button>
           <Button 
-          sx={{bgcolor:"#D9D9D9",borderRadius:"20px",color:"rgba(62, 59, 59, 1)",fontFamily:"Lato",fontWeight:700,fontSize:"16px",letterSpacing:"0.2px",lineHeight:"24px"}}>Sign up
+          sx={{bgcolor:"#D9D9D9",borderRadius:"20px",color:"rgba(62, 59, 59, 1)"}}>Sign up
           </Button></Box>
       </Toolbar>
   );

@@ -8,17 +8,15 @@ import { Button, Typography } from '@mui/material';
 function Background() {
   return (
     
-      <Box>
+      <Box sx={{m:"auto"}}>
         <Box
-        height="479px"
-        width="420px"
-        Top="205px"
-        Left="198px"
+        height="400px"
+        width="400px"
         sx={{ backgroundImage: `url(${backgroundImg})`, backgroundSize:'cover' }}>
         </Box>
         <Box>
-        <Typography variant="h2" color="rgba(88, 84, 84, 1)" fontWeight="bold">Remove Image</Typography>
-        <Typography variant="h2" color="rgba(88, 84, 84, 1)" fontWeight="bold">Background</Typography>
+        <Typography variant="h3" color="rgba(88, 84, 84, 1)" fontWeight="bold">Remove Image</Typography>
+        <Typography variant="h3" color="rgba(88, 84, 84, 1)" fontWeight="bold">Background</Typography>
         </Box>
         </Box>
 

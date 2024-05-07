@@ -1,16 +1,17 @@
 import { Box } from '@mui/material'
 import React from 'react'
 import Background from './Background'
-
 import Mbar from './Mbar'
+
 
 
 const Index = () => {
   return (
-    <Box sx={{display:"flex", alignItems:"center", justifyContent:"space-evenly"}}>
+    <Box sx={{justifyContent:"center"}}>
+    <Box sx={{display:"flex",justifyContent:"space-around"}}>
     <Background></Background> 
-   
-   <Mbar></Mbar>
+    <Mbar></Mbar>
+  </Box>
   </Box>
   )
 }
